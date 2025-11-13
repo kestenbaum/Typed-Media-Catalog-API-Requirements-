@@ -1,5 +1,5 @@
 import { SeriesModel } from '../models/interface';
-import { AbstractRepository } from './abstract-repository';
+import { AbstractRepository } from './abstract.repository';
 
 export class SeriesRepository extends AbstractRepository<SeriesModel> {
     constructor() {

@@ -1,5 +1,5 @@
 import { MovieModel } from '../models/interface';
-import { AbstractRepository } from './abstract-repository';
+import { AbstractRepository } from './abstract.repository';
 
 export class MovieRepository extends AbstractRepository<MovieModel> {
     private readonly MIN_RUNTIME = 60; 

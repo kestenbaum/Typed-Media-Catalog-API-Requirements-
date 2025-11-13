@@ -1,7 +1,7 @@
 import { Router, Request, Response } from "express";
-import { MovieRepository } from '../repository/movie-repository';
+import { MovieRepository } from '../repository/movie.repository';
 import { MovieModel } from '../models/interface';
- 
+
 
 const movieRouter = Router();
 const movieRepository = new MovieRepository(); 
